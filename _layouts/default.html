@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ site.name }}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Simonetta:400,900">
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <div role="main" class="container content">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

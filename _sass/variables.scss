@@ -1,0 +1,63 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #4183C4;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #c9c7c5;
+$white: #fff;
+
+// Font 
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+$simonetta: "Simonetta";
+
+// Font-size
+$fontSize1: 0.625rem;
+$fontSize2: 0.75rem;
+$fontSize3: 0.8125rem;
+$fontSize4: 0.875rem;
+$fontSize5: 1rem;
+$fontSize6: 1.125rem;
+$fontSize7: 1.25rem;
+$fontSize8: 1.5rem;
+$fontSize9: 1.75rem;
+$fontSize10: 2rem;
+$fontSize11: 2.625rem;
+
+// Sizing
+$sizeXXSmall: 6rem;
+$sizeXSmall: 12rem;
+$sizeSmall: 15rem;
+$sizeMedium: 20rem;
+$sizeLarge: 25rem;
+$sizeXLarge: 40rem;
+$sizeXXLarge: 60rem;
+
+// Border
+$borderWidthThick: 2px;
+$borderWidthThin: 1px;
+
+// Spacing
+$spacingXXSmall: 0.25rem;
+$spacingXSmall: 0.5rem;
+$spacingSmall: 0.75rem;
+$spacingMedium: 1rem;
+$spacingLarge: 1.5rem;
+$spacingXLarge: 2rem;
+$spacingXXLarge: 2.25rem;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}

@@ -1,0 +1,28 @@
+body {
+  background: $white;
+  font: 18px/1.4 $simonetta;
+  color: $darkGray;
+}
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 740px;
+  width: 100%;
+}
+
+.content {
+  padding-top: 102px; // to offset the stick
+  padding-bottom: 102px; // to offset the footer
+}
